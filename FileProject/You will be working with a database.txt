@@ -1,0 +1,25 @@
+You will be working with a database table called "Students". The table has the following columns: "Name" (string), "Age" (int), and "Grade" (double).
+
+Your task is to write a console application in C# that interacts with the "Students" table and performs the following tasks:
+
+1. Create the "Students" table in SQL Server Management Studio (SSMS).
+
+2. Write a method called "RetrieveStudents" that retrieves all the students from the "Students" table and writes their names, ages, and grades to the console.
+(Handle proper exceptions)
+
+Sample data : 
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Alice', 18, 85.5);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Bob', 17, 92.3);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Charlie', 19, 78.9);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('David', 18, 81.2);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Emma', 17, 95.0);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Frank', 19, 79.5);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Grace', 18, 89.1);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Henry', 17, 91.8);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('Isabella', 19, 86.4);
+    INSERT INTO Students (Name, Age, Grade) VALUES ('John', 18, 88.7);
+
+
+Nikhil
+
+2. Write a method called "InsertStudents" that inserts the students to the "Students" table and display their names, ages, and grades to the console.

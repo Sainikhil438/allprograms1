@@ -1,0 +1,59 @@
+nikhil
+Retrieve orders placed by customers with names starting with 'A'
+Retrieve customers who have not placed any orders
+
+Customers Table:
+
+Columns: CustomerID (Primary Key), Name, Email, Address
+
+Orders Table:
+
+Columns: OrderID (Primary Key), CustomerID (Foreign Key), OrderDate, TotalAmount
+
+Products Table:
+
+Columns: ProductID (Primary Key), Name, Price, CategoryID (Foreign Key)
+
+Category Table:
+
+Columns:
+CategoryID (Primary Key): 
+CategoryName
+Description
+
+
+Srikanth
+
+Retrieve products in a specific price range with their corresponding category names
+Create an index on the Email column for efficient email-based lookups
+
+
+Meshach
+
+Retrieve product information along with the corresponding category names
+Using SP, Get product details by product ID
+Using SP, Get the average price of products in a specific category
+
+Sreedhar
+Using SP, Get the total order amount by order ID
+Retrieve customer information along with their corresponding orders
+
+
+Yashwanth
+Using SP, Get the average price of products in a specific category
+Retrieve orders placed by customers with names starting with 'A'
+
+nikhil
+Retrieve orders placed by customers with names starting with 'A'
+Retrieve customers who have not placed any orders
+
+
+Sanjay
+Using SP, Get the average price of products in a specific category
+Using SP, Get the count of orders placed on a specific date
+Create a clustered index on the OrderID column for faster access to order details
+
+Pavan
+
+Retrieve products in a specific price range with their corresponding category name
+Retrieve customers who have not placed any orders

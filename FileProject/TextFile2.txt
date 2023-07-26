@@ -1,0 +1,3 @@
+streamwriter file
+created by using streamwriter
+hello sai
